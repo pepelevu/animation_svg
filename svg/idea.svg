@@ -1,0 +1,33 @@
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="254.667px" height="299.333px" viewBox="0 0 254.667 299.333" enable-background="new 0 0 254.667 299.333" xml:space="preserve">
+  <g>
+    <polyline fill="none" stroke="#5E6364" stroke-width="6" stroke-miterlimit="10" points="172 264 139 264 139 280 114 280 114 264 79 264 "/>
+    <path fill="none" stroke="#5E6364" stroke-width="6" stroke-miterlimit="10" d="M88 262v-74c0 0-38.841-23.888-38.841-69.838s41.411-78.15 79.762-78.15 77.109 33.286 77.109 77.789 -34.343 65.306-39.343 69.829c0 7.96-1.344 74.371-1.344 74.371"/>
+  </g>
+  <g>
+    <circle fill="#F99E14" cx="126.952" cy="120" r="56.214"/>
+    <polyline fill="none" stroke="#5E6364" stroke-width="6" stroke-miterlimit="10" points="142.661 86.661 108.825 121 149 121 117.87 153.751 "/>
+  </g>
+  <g>
+    <rect x="86.5" y="211.5" fill="#73E9E4" stroke="#5E6364" stroke-width="5" stroke-miterlimit="10" width="79" height="53"/>
+    <line fill="none" stroke="#5E6364" stroke-width="6" stroke-miterlimit="10" x1="79" y1="213" x2="176" y2="213"/>
+    <line fill="none" stroke="#5E6364" stroke-width="6" stroke-miterlimit="10" x1="79" y1="231" x2="176" y2="231"/>
+    <line fill="none" stroke="#5E6364" stroke-width="6" stroke-miterlimit="10" x1="79" y1="247" x2="176" y2="247"/>
+  </g>
+  <g>
+    <rect x="44" y="172" fill="#5E6364" width="9" height="10"/>
+    <rect x="33" y="144" fill="#5E6364" width="9" height="10"/>
+    <rect x="28" y="115" fill="#5E6364" width="9" height="10"/>
+    <rect x="32" y="86" fill="#5E6364" width="9" height="10"/>
+    <rect x="44" y="57" fill="#5E6364" width="9" height="10"/>
+    <rect x="64" y="37" fill="#5E6364" width="9" height="10"/>
+    <rect x="89" y="24" fill="#5E6364" width="9" height="10"/>
+    <rect x="122" y="20" fill="#5E6364" width="9" height="10"/>
+    <rect x="156" y="24" fill="#5E6364" width="9" height="10"/>
+    <rect x="180" y="37" fill="#5E6364" width="9" height="10"/>
+    <rect x="201" y="57" fill="#5E6364" width="9" height="10"/>
+    <rect x="213" y="86" fill="#5E6364" width="9" height="10"/>
+    <rect x="217" y="114" fill="#5E6364" width="9" height="10"/>
+    <rect x="213" y="144" fill="#5E6364" width="9" height="10"/>
+    <rect x="201" y="172" fill="#5E6364" width="9" height="10"/>
+  </g>
+</svg>

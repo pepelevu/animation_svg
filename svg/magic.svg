@@ -1,0 +1,14 @@
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="266.477px" height="267.614px" viewBox="0 0 266.477 267.614" enable-background="new 0 0 266.477 267.614" xml:space="preserve">
+  <circle fill="#F99E14" cx="141.031" cy="120.065" r="102.75"/>
+  <g>
+    <path fill="#6FE6DD" stroke="#5E6364" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M99.3 178.774l-15.468-15.772 -65.816 66.726c0 0-0.303 13.648 15.165 13.345C43.189 233.368 99.3 178.774 99.3 178.774z"/>
+    <line fill="#6FE6DD" stroke="#5E6364" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="126.597" y1="132.672" x2="92.02" y2="171.352"/>
+  </g>
+  <polygon fill="#FFFFFF" stroke="#5E6364" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points=" 140.692 90.917 175.515 76.038 166.143 112.729 191.055 141.25 153.264 143.675 133.837 176.182 119.853 140.989 82.934 132.558 112.083 108.383 108.692 70.666 "/>
+  <g>
+    <rect x="139.182" y="63.341" fill="#5E6364" width="7" height="8"/>
+    <rect x="83.182" y="95.341" fill="#5E6364" width="7" height="7"/>
+    <rect x="187.182" y="107.341" fill="#5E6364" width="7" height="7"/>
+    <rect x="164.182" y="160.341" fill="#5E6364" width="7" height="7"/>
+  </g>
+</svg>

@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300");
+/* line 3, ../styles/main.scss */
+body {
+  background: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* line 10, ../styles/main.scss */
+.animation {
+  display: none;
+  margin: auto;
+  padding: 20px 0;
+  text-align: center;
+}
+/* line 15, ../styles/main.scss */
+.animation svg {
+  display: none;
+}
+/* line 16, ../styles/main.scss */
+.animation.on {
+  display: block;
+}
+/* line 18, ../styles/main.scss */
+.animation.on svg {
+  display: block;
+}
+/* line 20, ../styles/main.scss */
+.animation span {
+  display: block;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 300px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-family: Open Sans;
+  animation: openSpan 1s ease-out;
+}
+
+/* line 34, ../styles/main.scss */
+.one.on .anim_g_2 path {
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  animation: dash 1.3s linear forwards;
+}
+/* line 40, ../styles/main.scss */
+.one.on .cursor {
+  opacity: 0;
+  stroke-dasharray: 10;
+  stroke-dashoffset: 10;
+  animation: dash2 0.5s 2s cubic-bezier(0.17, 0.67, 0.83, 0.67) forwards;
+}
+
+/* line 51, ../styles/main.scss */
+.two.on .marco .m2 {
+  stroke-dasharray: 1200;
+  stroke-dashoffset: 1200;
+  animation: lineaMouv 2s 0.5s cubic-bezier(0.17, 0.67, 0.83, 0.67) forwards;
+}
+/* line 58, ../styles/main.scss */
+.two.on .centro .rayo {
+  stroke-dasharray: 200;
+  stroke-dashoffset: 200;
+  animation: lineaMouv 0.5s 1.2s cubic-bezier(0.17, 0.67, 0.83, 0.67) forwards;
+}
+
+/* line 67, ../styles/main.scss */
+.three.on .lapiz_borde {
+  stroke-dasharray: 600;
+  stroke-dashoffset: 600;
+  animation: lineaMouv 0.5s 1.5s cubic-bezier(0.17, 0.67, 0.83, 0.67) forwards;
+}
+
+/* line 75, ../styles/main.scss */
+.four.on .lapiz_borde {
+  stroke-dasharray: 600;
+  stroke-dashoffset: 600;
+  animation: lineaMouv 0.5s 1.5s cubic-bezier(0.17, 0.67, 0.83, 0.67) forwards;
+}
+/* line 80, ../styles/main.scss */
+.four.on .mesa {
+  stroke-dasharray: 700;
+  stroke-dashoffset: 700;
+  animation: lineaMouv 0.8s 1s cubic-bezier(0.17, 0.67, 0.83, 0.67) forwards;
+}
+/* line 85, ../styles/main.scss */
+.four.on .marco {
+  stroke-dasharray: 700;
+  stroke-dashoffset: 700;
+  animation: lineaMouv 1s 1.5s cubic-bezier(0.17, 0.67, 0.83, 0.67) forwards;
+}
+
+/* line 94, ../styles/main.scss */
+.five.on .soporte {
+  stroke-dasharray: 250;
+  stroke-dashoffset: 250;
+  animation: lineaMouv 0.3s cubic-bezier(0.17, 0.67, 0.83, 0.67) forwards;
+}
+/* line 99, ../styles/main.scss */
+.five.on .conector {
+  stroke-dasharray: 60;
+  stroke-dashoffset: -60;
+  animation: lineaMouv 0.2s 0.3s cubic-bezier(0.17, 0.67, 0.83, 0.67) forwards;
+}
+/* line 104, ../styles/main.scss */
+.five.on .estrella {
+  stroke-dasharray: 400;
+  stroke-dashoffset: 400;
+  animation: lineaMouv 0.5s 0.6s cubic-bezier(0.17, 0.67, 0.83, 0.67) forwards;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes dash2 {
+  0% {
+    stroke-dasharray: 0;
+    stroke-dashoffset: 0;
+    opacity: 0;
+  }
+  100% {
+    stroke-dasharray: 200;
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+}
+@keyframes lineaMouv {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes openSpan {
+  0% {
+    opacity: 0;
+    transform: translate(-60px, 0);
+  }
+  100% {
+    opacity: 0.7;
+    transform: translate(0px, 0);
+  }
+}
